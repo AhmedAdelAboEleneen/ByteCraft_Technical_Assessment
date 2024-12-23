@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--For run in parallel-->
+<!-- <suite name="regression" parallel="tests" thread-count="8"-->
+<suite name="regression For Task">
+    <test name="API Test">
+        <classes>
+            <class name="tests.CatFactsTest"/>
+        </classes>
+
+    </test>
+    <test name="DynamicallyLoadingTest">
+        <classes>
+            <class name="tests.DynamicallyLoadingTest"/>
+        </classes>
+
+    </test>
+    <test name="UploadImage">
+        <classes>
+            <class name="tests.UploadImageTest"/>
+        </classes>
+
+    </test>
+    <test name="SearchTest">
+        <classes>
+            <class name="tests.SearchTest"/>
+        </classes>
+
+    </test>
+
+
+</suite>
